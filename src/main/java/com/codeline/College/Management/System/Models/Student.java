@@ -11,12 +11,18 @@ import javax.persistence.*;
 @Data
 @Entity
 
-public class Student {
+public class Student extends BaseEntity {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+
     private Long id;
+
     @Column(name = "Student_name")
     private String name;
+
     private String email;
+
     private String course;
 }
+

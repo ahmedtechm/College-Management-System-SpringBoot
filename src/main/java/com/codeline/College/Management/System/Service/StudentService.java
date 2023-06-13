@@ -15,7 +15,9 @@ public class StudentService {
 
 
     public void createStudent() {
+
         Student student = new Student();
+
         student.setName("AHMED");
         student.setEmail("ahmed@gmail.com");
         student.setCourse("Java");
