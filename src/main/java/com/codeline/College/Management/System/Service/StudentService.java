@@ -13,7 +13,6 @@ public class StudentService {
     @Autowired
     StudentRepository studentRepository;
 
-
     public void createStudent() {
 
         Student student = new Student();
@@ -23,6 +22,6 @@ public class StudentService {
         student.setCourse("Java");
         student.setCreatedDate(new Date());
         student.setIsActive(true);
-        studentService.saveEmployee(student);
+        studentRepository.save(student);
     }
 }
