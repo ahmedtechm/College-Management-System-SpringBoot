@@ -1,9 +1,11 @@
 package com.codeline.College.Management.System.Models;
 
+import javax.persistence.Id;
+
 public class Course {
+    @Id
+    Long id;
 
-     Long id;
-
-   String name;
+    String name;
 
 }
