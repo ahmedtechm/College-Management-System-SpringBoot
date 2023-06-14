@@ -1,7 +1,9 @@
 package com.codeline.College.Management.System.Models;
 
-public class Professor {
+import javax.persistence.Id;
 
+public class Professor {
+    @Id
     Long id;
     String name;
     String phone;
