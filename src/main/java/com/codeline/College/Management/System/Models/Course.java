@@ -10,6 +10,7 @@ import javax.persistence.*;
 @Setter
 @Data
 @Entity
+@Table(name = "courses")
 
 public class Course extends BaseEntity {
 
