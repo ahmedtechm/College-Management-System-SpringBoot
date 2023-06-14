@@ -23,5 +23,6 @@ public class ProfessorService {
         professor.setIsActive(true);
         ProfessorRepository.save(professor);
 
+
     }
 }
