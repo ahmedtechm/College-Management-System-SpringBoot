@@ -10,7 +10,6 @@ public class StudentController {
     @Autowired
     StudentService studentService;
 
-
     @RequestMapping("student/create")
     public void saveStudent() {
         studentService.createStudent();
