@@ -1,7 +1,9 @@
 package com.codeline.College.Management.System.Models;
 
-public class Enrollment {
+import javax.persistence.Id;
 
+public class Enrollment {
+    @Id
     Long id;
 
     String studentName;
