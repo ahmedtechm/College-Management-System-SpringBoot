@@ -21,8 +21,7 @@ public class ProfessorService {
         professor.setSpecialization("JAVA developer");
         professor.setCreatedDate(new Date());
         professor.setIsActive(true);
-        ProfessorRepository.save(professor);
-
+        professorRepository.save(professor);
 
     }
 }
